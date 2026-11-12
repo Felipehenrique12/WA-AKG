@@ -19,7 +19,7 @@ enum Role {
 enum MessageType {
   TEXT
   IMAGE
-  VIDEOf
+  VIDEO
   AUDIO
   DOCUMENT
   STICKER
