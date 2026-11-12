@@ -6,7 +6,7 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
@@ -19,7 +19,7 @@ enum Role {
 enum MessageType {
   TEXT
   IMAGE
-  VIDEO
+  VIDEOf
   AUDIO
   DOCUMENT
   STICKER
